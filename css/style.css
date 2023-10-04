@@ -27,8 +27,9 @@ Header
   display: flex;
 }
 
-.container.big {
+.topbar .container {
   max-width: 1250px;
+  margin-top: 3px;
 }
 
 header {
@@ -38,6 +39,10 @@ header {
 header .topbar {
   background-color: #ff6900;
   padding: 14px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  top: 0;
 }
 
 header .top-menu {
@@ -90,17 +95,16 @@ Body
 */
 
 .container {
-  border: 1px solid red;
   display: flex;
   gap: 20px;
   width: 60%;
   margin: 0 auto;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 90px;
+  position: relative;
 }
 
 .box {
-  border: 1px solid black;
   width: calc((100% - 40px) / 3);
   position: relative;
 }
@@ -115,6 +119,117 @@ Body
 Main
 ******
 */
+
+.hearth-container {
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  padding: 10px 10px;
+}
+
+span.sconto {
+  color: red;
+}
+
+.image-with-over-change1 {
+  background-image: url(/img/1.webp);
+  height: 375px;
+  background-size: contain;
+}
+
+.image-with-over-change1:hover {
+  background-image: url(/img/1b.webp);
+}
+
+.image-with-over-change2 {
+  background-image: url(/img/2.webp);
+  height: 375px;
+  background-size: contain;
+}
+
+.image-with-over-change2:hover {
+  background-image: url(/img/2b.webp);
+}
+
+.image-with-over-change3 {
+  background-image: url(/img/3.webp);
+  height: 375px;
+  background-size: contain;
+}
+
+.image-with-over-change3:hover {
+  background-image: url(/img/3b.webp);
+}
+
+.image-with-over-change4 {
+  background-image: url(/img/4.webp);
+  height: 375px;
+  background-size: contain;
+}
+
+.image-with-over-change4:hover {
+  background-image: url(/img/4b.webp);
+}
+
+.image-with-over-change5 {
+  background-image: url(/img/5.webp);
+  height: 375px;
+  background-size: contain;
+}
+
+.image-with-over-change5:hover {
+  background-image: url(/img/5b.webp);
+}
+
+.image-with-over-change6 {
+  background-image: url(/img/6.webp);
+  height: 375px;
+  background-size: contain;
+}
+
+.image-with-over-change6:hover {
+  background-image: url(/img/6b.webp);
+}
+
+span.scontperc {
+  background: #ff0000;
+  width: 55px;
+  height: 17px;
+  border: 1px #ff0000;
+  position: absolute;
+  left: 0px;
+  bottom: 80px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+span.sost {
+  background: #008000;
+  width: 100px;
+  height: 17px;
+  border: 1px #008000;
+  position: absolute;
+  left: 60px;
+  bottom: 80px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+span.sost2 {
+  background: #008000;
+  width: 100px;
+  height: 17px;
+  border: 1px #008000;
+  position: absolute;
+  left: 0px;
+  bottom: 80px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
 
 /*
 ******
