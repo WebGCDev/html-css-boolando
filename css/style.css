@@ -22,6 +22,64 @@ Header
 ******
 */
 
+.container {
+  margin: 0 auto;
+}
+
+.container.big {
+  max-width: 1250px;
+}
+
+header {
+  color: white;
+}
+
+header .topbar {
+  background-color: #ff6900;
+  padding: 14px;
+}
+
+header .top-menu {
+  display: flex;
+  align-items: center;
+}
+
+header #logo {
+  display: block;
+  height: 34px;
+}
+
+header .top-menu .header-logo,
+header .top-menu .header-login {
+  width: 20%;
+}
+
+header .top-menu .header-link {
+  width: 60%;
+  text-align: center;
+}
+
+header .top-menu .header-link .main-menu {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  font-size: 14px;
+}
+
+header .top-menu .header-login {
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+
 /*
 ******
 Main
