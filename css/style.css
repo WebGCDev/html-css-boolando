@@ -24,6 +24,7 @@ Header
 
 .container {
   margin: 0 auto;
+  display: flex;
 }
 
 .container.big {
@@ -42,6 +43,8 @@ header .topbar {
 header .top-menu {
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 header #logo {
@@ -78,6 +81,33 @@ a {
   color: white;
   text-decoration: none;
   text-align: left;
+}
+
+/*
+******
+Body
+******
+*/
+
+.container {
+  border: 1px solid red;
+  display: flex;
+  gap: 20px;
+  width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.box {
+  border: 1px solid black;
+  width: calc((100% - 40px) / 3);
+  position: relative;
+}
+
+.box img {
+  width: 100%;
+  display: block;
 }
 
 /*
